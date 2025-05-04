@@ -11,6 +11,9 @@ let package = Package(
             targets: ["InAppSettingsKit"]
         ),
     ],
+    dependencies: [
+        .package(url: "https://github.com/SafeExamBrowser/InAppSettingsKit.git", from: "1.0.0")
+    ],
     targets: [
         .target(
             name: "InAppSettingsKit",
